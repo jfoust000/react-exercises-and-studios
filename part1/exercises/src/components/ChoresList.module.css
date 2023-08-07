@@ -2,10 +2,14 @@
    color: brown;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-style: italic;
+   font-size: 1vw;
+   text-align: left;
 }
 
 .choresHeading {
    color: black;
    text-decoration: underline;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 1vw;
+   text-align: left;
 }

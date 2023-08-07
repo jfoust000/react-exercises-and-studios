@@ -1,0 +1,29 @@
+.hobbyHeader {
+color: rgb(0, 0, 0);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 1vw;
+   text-align: right;
+   padding: 0.5em;
+   margin-bottom: 0;
+
+}
+
+a {
+
+    font-size: 1vw;
+    text-decoration: none;
+    color: blue;
+    padding: 0.5em;
+}
+
+a:visited {
+
+    text-decoration: none;
+
+}
+
+.linkContainer {
+
+    text-align:right;
+
+}
