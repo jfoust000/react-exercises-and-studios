@@ -1,18 +1,25 @@
 [
    {
-     "name": "Stovetop Mac and Cheese",
-     "author": "Stephanie Melchione",
-     "description": "This Creamy Stovetop Mac and Cheese is the BEST 30-minute meal for a busy week. Your family will love it every time!",
-     "website": "https://thecozycook.com/stovetop-mac-and-cheese/",
-     "recipeImage": "https://thecozycook.com/wp-content/uploads/2021/10/Stovetop-Mac-and-Cheese-2.jpg",
-     "authorImage": "https://thecozycook.com/wp-content/uploads/2021/11/The-Cozy-Cook.jpg",
-     "ingredients": [
-       "uncooked macaroni",
-       "butter",
-       "flour",
-       "heavy cream",
-       "milk"
-     ]
+     "name": "Peach Cobbler",
+     "author": "Lauren Allen",
+     "description": "This old fashioned Peach Cobbler recipe is not only extremely easy to make from scratch, but it's made with fresh or canned peaches so you can enjoy it all year round! It's one of my favorite family recipes from my mom, and although I am bias, I think it's the best of the best!",
+     "website": "https://tastesbetterfromscratch.com/peach-cobbler/",
+     "recipeImage": "https://tastesbetterfromscratch.com/wp-content/uploads/2014/08/Peach-Cobbler-13.jpg",
+     "authorImage": "https://tastesbetterfromscratch.com/wp-content/uploads/2021/11/Lauren-Allen-69.jpg",
+     "ingredientsPeaches": [
+       "5 peaches, peeled, cored and sliced (about 4 cups)",
+       "3/4 cup granulated sugar",
+       "1/4 teaspoon salt"
+      ],
+      "ingredientsBatter": [
+       "6 Tablespoons butter",
+       "1 cup all-purpose flour",
+       "1 cup granulated sugar",
+       "2 teaspoons baking powder",
+       "1/4 teaspoon salt",
+       "3/4 cup milk",
+       "ground cinnamon"
+      ]
    }
  ]
  
