@@ -1,14 +1,32 @@
 import './styles.css';
 import Button from './Button';
+import oceans from './oceans.json';
 
 
 function Profile()
 {
-   return(
-      <>
-         <h3>Coming Soon! Profiles of Ocean creatures</h3>
+   let listItem = oceans.map(ocean =>
+      
+      <div key={ocean.id} className={`${ocean.fishCheck === 'true' ? 'isAFish' : 'profile'}`}>
+         <h1>{ocean.name}</h1>
+         <img src={ocean.image} alt={ocean.name} className='img'/>
+         <h2>3 Facts about {ocean.name}:</h2>
+         <ul>
+            <li>{ocean.fact1}</li>
+            <li>{ocean.fact2}</li>
+            <li>{ocean.fact3}</li>
+         </ul>
          <Button />
-      </>  
+      </div>
+
+      );
+
+   
+
+   return(
+         <ul>
+            {listItem}
+         </ul> 
    );
 }
 
