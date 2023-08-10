@@ -1,0 +1,46 @@
+{
+    "projects": [
+        
+                    {
+
+                        "gameTitle": "Sonic Frontiers",
+                        "gameDeveloper": "Sonic Team",
+                        "releaseDate": "November 8, 2022",
+                        "url": "https://frontiers.sonicthehedgehog.com/"
+
+                    },
+                    {
+
+                        "gameTitle": "Roblox",
+                        "gameDeveloper": "Roblox Corporation",
+                        "releaseDate": "September 1, 2006",
+                        "url": "https://www.roblox.com/"
+
+                    },
+                    {
+
+                        "gameTitle": "PAC-MAN WORLD Re-PAC",
+                        "gameDeveloper": "Now Production, BNE Entertainment, Namco Hometek Inc.",
+                        "releaseDate": "August 25, 2022",
+                        "url": "https://www.bandainamcoent.com/games/pac-man-world-re-pac"
+
+                    },
+                    {
+
+                        "gameTitle": "Hollow Knight",
+                        "gameDeveloper": "Team Cherry",
+                        "releaseDate": "February 24, 2017",
+                        "url": "https://www.hollowknight.com/"
+
+                    },
+                    {
+
+                        "gameTitle": "SpongeBob SquarePants: The Cosmic Shake",
+                        "gameDeveloper": "Purple Lamp",
+                        "releaseDate": "January 31, 2023",
+                        "url": "https://cosmicshake.thqnordic.com/"
+
+                    }
+
+                ]
+}
