@@ -2,10 +2,32 @@ import { useState } from 'react';
 
 export default function StatusChange () {
 
+   const [notes, setNotes] = useState("");
+   const [recipeStatus, setRecipeStatus] = useState(false);
+
    const handleChange = (event) => {
+      setNotes(event.target.value);
    }
 
    const handleSubmit = (event) => {
+
+      event.preventDefault();
+      let currentNotes = notes.toLocaleLowerCase(); 
+
+      if (currentNotes.includes("no") || currentNotes.includes("i have not")){
+
+         setRecipeStatus(false);
+
+      } else if (currentNotes.includes("yes") || currentNotes.includes("i have")) {
+
+         setRecipeStatus(true);
+
+      } else {
+
+         setRecipeStatus(false);
+         
+      }
+      
    }
 
    return (
@@ -15,10 +37,7 @@ export default function StatusChange () {
             </label>
             <input type="submit" />
          </form>
-
-         <p>My Recipe Notes aren't here!</p>
-
-         <p>I have not tried this recipe!</p>
+         <p>I {recipeStatus ? "have" : "have not"} tried this recipe</p>
       </div>
    );
 }
